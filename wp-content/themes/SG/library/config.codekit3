@@ -73,6 +73,50 @@
 		"oAP": "/custom-post-type.php",
 		"oF": 0
 		},
+	"/images/close-dark.png": {
+		"ft": 32768,
+		"iS": 6701,
+		"oA": 0,
+		"oAP": "/images/close-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/close-light.png": {
+		"ft": 32768,
+		"iS": 8861,
+		"oA": 0,
+		"oAP": "/images/close-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/open-dark.png": {
+		"ft": 32768,
+		"iS": 581,
+		"oA": 0,
+		"oAP": "/images/open-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/open-light.png": {
+		"ft": 32768,
+		"iS": 581,
+		"oA": 0,
+		"oAP": "/images/open-light.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/sg.png": {
 		"ft": 32768,
 		"iS": 12143,
