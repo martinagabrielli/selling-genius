@@ -73,60 +73,11 @@
 		"oAP": "/custom-post-type.php",
 		"oF": 0
 		},
-	"/images/apple-touch-icon.png": {
+	"/images/sg.png": {
 		"ft": 32768,
-		"iS": 8439,
+		"iS": 12143,
 		"oA": 0,
-		"oAP": "/images/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/custom-post-icon.png": {
-		"ft": 32768,
-		"iS": 462,
-		"oA": 0,
-		"oAP": "/images/custom-post-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/login-logo.png": {
-		"ft": 32768,
-		"iS": 7019,
-		"oA": 0,
-		"oAP": "/images/login-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/nothing.gif": {
-		"ft": 4194304,
-		"iS": 1140,
-		"oA": 0,
-		"oAP": "/images/nothing.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/images/nothumb.gif": {
-		"ft": 4194304,
-		"iS": 1161,
-		"oA": 0,
-		"oAP": "/images/nothumb.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"/images/win8-tile-icon.png": {
-		"ft": 32768,
-		"iS": 8048,
-		"oA": 0,
-		"oAP": "/images/win8-tile-icon.png",
+		"oAP": "/images/sg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -807,7 +758,7 @@
 	"creationDate": 603383888.54795897,
 	"displayValue": "selling-genius",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "/Users/martuce/Documents/Websites/selling-genius/wp-content/themes/Sg/library/images/apple-touch-icon.png",
+	"iconImageName": "meme-karate",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

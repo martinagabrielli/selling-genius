@@ -15,14 +15,43 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
-body {
-	font-family: $lato;
-	font-size: 100%;
-	line-height: 1.5;
-	color: $text-color;
-	background-color: $gray;
-  	-webkit-font-smoothing: antialiased;
-  	-moz-osx-font-smoothing: grayscale;
+* {
+	body {
+		font-family: $lato;
+		font-size: 100%;
+		line-height: 1.5;
+		color: $text-color;
+		background-color: $gray;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		#container {
+			header {
+				#inner-header {
+					p#logo {
+						a {
+							width: 330px;
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+						}
+						.logo-img {
+							width: 80px;
+						}
+					}
+				}
+			}
+		}
+		&.home {
+			#container {
+				header {
+					#inner-header {
+						p#logo {
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 /********************

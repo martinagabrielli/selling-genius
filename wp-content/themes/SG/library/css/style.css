@@ -1217,7 +1217,7 @@ and will be used across all viewports.
 /*********************
 GENERAL STYLES
 *********************/
-body {
+* body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
@@ -1225,6 +1225,13 @@ body {
   background-color: #eaedf2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  * body #container header #inner-header p#logo a {
+    width: 330px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  * body #container header #inner-header p#logo .logo-img {
+    width: 80px; }
 
 /********************
 WORDPRESS BODY CLASSES
