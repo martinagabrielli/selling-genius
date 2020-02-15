@@ -49,12 +49,14 @@
 				<div id="inner-header" class="wrap cf">
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-					<p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization">
-					<a href="<?php echo home_url(); ?>" rel="nofollow">
-					<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/sg.png" alt="Selling Genius Logo">
-					<?php bloginfo('name'); ?>
-					</a>
-					</p>
+					<div id="logo-nav-section" class="h1" itemscope itemtype="http://schema.org/Organization">
+						<a href="<?php echo home_url(); ?>" rel="nofollow">
+							<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/sg.png" alt="Selling Genius Logo">
+							<?php bloginfo('name'); ?>
+						</a>
+						<img id="menu-open" src="<?php echo get_template_directory_uri(); ?>/library/images/open-light.png" alt="Hamburger icon">
+						<img id="menu-close" src="<?php echo get_template_directory_uri(); ?>/library/images/close-light.png" alt="Hamburger icon">
+					</div>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

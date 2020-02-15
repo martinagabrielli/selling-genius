@@ -118,3 +118,25 @@ jQuery(document).ready(function($) {
 
 
 }); /* end of as page load scripts */
+
+
+// nav functionality
+
+let openMenuBtn = document.getElementById('menu-open');
+let closeMenuBtn = document.getElementById('menu-close');
+let navMenu = document.querySelector('nav');
+
+let openMenu = () =>  {
+  navMenu.classList.add('show');
+  openMenuBtn.classList.add('hide');
+  closeMenuBtn.classList.add('show');
+}
+
+let closeMenu = () => {
+  navMenu.classList.remove('show');
+  closeMenuBtn.classList.remove('show');
+  openMenuBtn.classList.remove('hide');
+}
+
+openMenuBtn.addEventListener('click', openMenu);
+closeMenuBtn.addEventListener('click', closeMenu);

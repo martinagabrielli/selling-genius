@@ -1225,13 +1225,35 @@ GENERAL STYLES
   background-color: #eaedf2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
-  * body #container header #inner-header p#logo a {
-    width: 330px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  * body #container header #inner-header p#logo .logo-img {
-    width: 80px; }
+  * body #container header {
+    height: 70px; }
+    * body #container header #inner-header #logo-nav-section {
+      width: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-left: 10px; }
+      * body #container header #inner-header #logo-nav-section a {
+        display: flex;
+        align-items: center; }
+      * body #container header #inner-header #logo-nav-section #menu-open, * body #container header #inner-header #logo-nav-section #menu-close {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 10px; }
+      * body #container header #inner-header #logo-nav-section #menu-open.hide {
+        display: none; }
+      * body #container header #inner-header #logo-nav-section #menu-close {
+        display: none; }
+        * body #container header #inner-header #logo-nav-section #menu-close.show {
+          display: inherit; }
+      * body #container header #inner-header #logo-nav-section .logo-img {
+        width: 45px; }
+    * body #container header #inner-header nav {
+      display: none;
+      background: #323944; }
+      * body #container header #inner-header nav.show {
+        display: inherit; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1275,10 +1297,6 @@ style a page via class
 /*********************
 LAYOUT & GRID STYLES
 *********************/
-.wrap {
-  width: 96%;
-  margin: 0 auto; }
-
 /*********************
 LINK STYLES
 *********************/
@@ -1312,7 +1330,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 2.5em;
+  font-size: 1.5em;
   line-height: 1.333em; }
 
 h2, .h2 {
@@ -1339,9 +1357,9 @@ HEADER STYLES
 .header {
   background-color: #323944; }
 
-#logo {
-  margin: 0.75em 0; }
-  #logo a {
+#logo-nav-section {
+  margin: 10px 0; }
+  #logo-nav-section a {
     color: #fff; }
 
 /*********************

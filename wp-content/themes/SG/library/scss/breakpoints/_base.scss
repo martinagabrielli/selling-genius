@@ -26,20 +26,46 @@ GENERAL STYLES
 		-moz-osx-font-smoothing: grayscale;
 		#container {
 			header {
+				height: 70px;
 				#inner-header {
-					p#logo {
+					#logo-nav-section {
+						width: 350px;
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+						margin-left: 10px;
 						a {
-							width: 330px;
 							display: flex;
 							align-items: center;
-							justify-content: space-between;
+							// justify-content: flex-start;
+						}
+						#menu-open, #menu-close {
+							width: 30px;
+							height: 30px;
+							position: absolute;
+							right: 10px;
+						}
+						#menu-open {
+							&.hide {
+								display: none;
+							}
+						}
+						#menu-close {
+							display: none;
+							&.show {
+								display: inherit;
+							}
 						}
 						.logo-img {
-							width: 80px;
+							width: 45px;
 						}
 					}
 					nav {
-						
+						display: none;
+						background: $black;
+						&.show {
+							display: inherit;
+						}
 					}
 				}
 			}
@@ -102,10 +128,6 @@ style a page via class
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap {
-	width: 96%;
-	margin: 0 auto;
-}
 
 /*********************
 LINK STYLES
@@ -154,7 +176,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 }
 
 h1, .h1 {
-	font-size: 2.5em;
+	font-size: 1.5em;
 	line-height: 1.333em;
 }
 
@@ -188,8 +210,8 @@ HEADER STYLES
 	background-color: $black;
 }
 
-	#logo {
-		margin: 0.75em 0;
+	#logo-nav-section {
+		margin: 10px 0;
 
 		a {
 			color: $white;

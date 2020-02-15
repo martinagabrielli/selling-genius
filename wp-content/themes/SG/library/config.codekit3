@@ -136,7 +136,18 @@
 		"oA": 0,
 		"oAP": "/js/libs/modernizr.custom.min-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
+		"tS": 0
+		},
+	"/js/scripts-min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/scripts-min-min.js",
+		"oF": 0,
+		"sC": 0,
 		"tS": 0
 		},
 	"/js/scripts.js": {
@@ -147,7 +158,7 @@
 		"oA": 0,
 		"oAP": "/js/scripts-min.js",
 		"oF": 0,
-		"sC": 3,
+		"sC": 0,
 		"tS": 0
 		},
 	"/scss/admin.scss": {
@@ -2689,7 +2700,7 @@
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 3,
+		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
