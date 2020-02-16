@@ -125,17 +125,20 @@ jQuery(document).ready(function($) {
 let openMenuBtn = document.getElementById('menu-open');
 let closeMenuBtn = document.getElementById('menu-close');
 let navMenu = document.querySelector('nav');
+let body = document.querySelector('body');
 
 let openMenu = () => {
   navMenu.classList.add('show');
   openMenuBtn.classList.add('hide');
   closeMenuBtn.classList.add('show');
+  body.classList.add('no-scroll');
 }
 
 let closeMenu = () => {
   navMenu.classList.remove('show');
   closeMenuBtn.classList.remove('show');
   openMenuBtn.classList.remove('hide');
+  body.classList.remove('no-scroll');
 }
 
 openMenuBtn.addEventListener('click', openMenu);

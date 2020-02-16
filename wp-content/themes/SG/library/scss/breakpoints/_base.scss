@@ -17,6 +17,9 @@ GENERAL STYLES
 
 * {
 	body {
+		&.no-scroll {
+			overflow-y: hidden;
+		}
 		font-family: 'Raleway', sans-serif;
 		font-size: 100%;
 		line-height: 1.5;
@@ -125,6 +128,29 @@ GENERAL STYLES
 				}
 			}
 		}
+		// shop
+		&.page-id-8 {
+			#container {
+				header {
+					#inner-header {
+						nav {
+
+						}
+						#header-img {
+							display: none;
+						}
+					}
+				}
+				#content {
+					#inner-content {
+						main {
+
+						}
+					}
+				}
+			}
+		}
+		// my account
 		&.page-id-11 {
 			#container {
 				header {

@@ -1223,6 +1223,8 @@ GENERAL STYLES
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  * body.no-scroll {
+    overflow-y: hidden; }
   * body #menu-curtain {
     display: none;
     background: #fff;
@@ -1289,6 +1291,8 @@ GENERAL STYLES
     position: absolute;
     bottom: 0;
     z-index: -1; }
+  * body.page-id-8 #container header #inner-header #header-img {
+    display: none; }
   * body.page-id-11 #container header #inner-header #header-img {
     display: none; }
 
