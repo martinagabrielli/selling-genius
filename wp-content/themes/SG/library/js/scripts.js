@@ -126,7 +126,7 @@ let openMenuBtn = document.getElementById('menu-open');
 let closeMenuBtn = document.getElementById('menu-close');
 let navMenu = document.querySelector('nav');
 
-let openMenu = () =>  {
+let openMenu = () => {
   navMenu.classList.add('show');
   openMenuBtn.classList.add('hide');
   closeMenuBtn.classList.add('show');

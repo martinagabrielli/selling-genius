@@ -75,7 +75,7 @@
 		},
 	"/images/close-dark.png": {
 		"ft": 32768,
-		"iS": 6701,
+		"iS": 1595,
 		"oA": 0,
 		"oAP": "/images/close-dark.png",
 		"oF": 0,
@@ -95,9 +95,31 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/desk.jpg": {
+		"ft": 16384,
+		"iS": 1224119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/desk.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/desk1.jpg": {
+		"ft": 16384,
+		"iS": 953551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/desk1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/open-dark.png": {
 		"ft": 32768,
-		"iS": 581,
+		"iS": 408,
 		"oA": 0,
 		"oAP": "/images/open-dark.png",
 		"oF": 0,
@@ -117,11 +139,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/sg.png": {
+	"/images/sg-dark.png": {
+		"ft": 32768,
+		"iS": 12613,
+		"oA": 0,
+		"oAP": "/images/sg-dark.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/sg-light.png": {
 		"ft": 32768,
 		"iS": 12143,
 		"oA": 0,
-		"oAP": "/images/sg.png",
+		"oAP": "/images/sg-light.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

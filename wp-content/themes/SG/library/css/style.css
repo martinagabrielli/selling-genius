@@ -1218,17 +1218,20 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 * body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  background-color: #eaedf2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+  * body #menu-curtain {
+    display: none;
+    background: #fff;
+    height: 100vh; }
   * body #container header {
     height: 70px; }
     * body #container header #inner-header #logo-nav-section {
       width: 350px;
+      height: 50px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -1236,24 +1239,58 @@ GENERAL STYLES
       * body #container header #inner-header #logo-nav-section a {
         display: flex;
         align-items: center; }
-      * body #container header #inner-header #logo-nav-section #menu-open, * body #container header #inner-header #logo-nav-section #menu-close {
+        * body #container header #inner-header #logo-nav-section a #website-name {
+          font-size: 1.3em;
+          color: #000;
+          margin: 0; }
+      * body #container header #inner-header #logo-nav-section #menu-open {
+        cursor: pointer;
         width: 30px;
         height: 30px;
         position: absolute;
-        right: 10px; }
-      * body #container header #inner-header #logo-nav-section #menu-open.hide {
-        display: none; }
-      * body #container header #inner-header #logo-nav-section #menu-close {
-        display: none; }
-        * body #container header #inner-header #logo-nav-section #menu-close.show {
-          display: inherit; }
+        right: 20px; }
+        * body #container header #inner-header #logo-nav-section #menu-open.hide {
+          display: none; }
       * body #container header #inner-header #logo-nav-section .logo-img {
         width: 45px; }
     * body #container header #inner-header nav {
       display: none;
-      background: #323944; }
+      background: #fff;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      z-index: 9; }
+      * body #container header #inner-header nav #menu-close {
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: none; }
+        * body #container header #inner-header nav #menu-close.show {
+          display: inherit; }
+      * body #container header #inner-header nav ul {
+        position: relative;
+        top: 25%; }
+        * body #container header #inner-header nav ul li a {
+          cursor: pointer;
+          color: #000; }
+          * body #container header #inner-header nav ul li a:hover {
+            color: #f01d4f; }
       * body #container header #inner-header nav.show {
         display: inherit; }
+    * body #container header #inner-header #header-img {
+      width: 100%; }
+  * body #container footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1; }
+  * body.page-id-11 #container header #inner-header #header-img {
+    display: none; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1330,7 +1367,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
     text-decoration: none; }
 
 h1, .h1 {
-  font-size: 1.5em;
   line-height: 1.333em; }
 
 h2, .h2 {
@@ -1354,9 +1390,6 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-.header {
-  background-color: #323944; }
-
 #logo-nav-section {
   margin: 10px 0; }
   #logo-nav-section a {
@@ -1412,9 +1445,8 @@ POSTS & CONTENT STYLES
   background-color: #fff;
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #ccc; }
+  border: 1px solid #eee; }
   .hentry header {
-    border-bottom: 1px solid #f8f9fa;
     padding: 1.5em; }
   .hentry footer {
     padding: 1.5em;
@@ -1733,8 +1765,8 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
-  color: #f8f9fa; }
+  color: #000;
+  text-align: center; }
 
 /*
 	if you checked out the link above:
@@ -1850,8 +1882,6 @@ GENERAL STYLES
   /*********************
 LAYOUT & GRID STYLES
 *********************/
-  .wrap {
-    width: 760px; }
   /*********************
 HEADER STYLES
 *********************/
@@ -1976,9 +2006,7 @@ Stylesheet: Desktop Stylsheet
 This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
-******************************************************************/
-  .wrap {
-    width: 1040px; } }
+******************************************************************/ }
 
 /*********************
 LARGE VIEWING SIZE

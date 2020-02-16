@@ -38,9 +38,13 @@
 		<?php // drop Google Analytics Here ?>
 		<?php // end analytics ?>
 
+		<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
 	</head>
 
 	<body <?php body_class(); ?> itemscope itemtype="http://schema.org/WebPage">
+
+		<div id="menu-curtain"></div>
 
 		<div id="container">
 
@@ -51,18 +55,17 @@
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<div id="logo-nav-section" class="h1" itemscope itemtype="http://schema.org/Organization">
 						<a href="<?php echo home_url(); ?>" rel="nofollow">
-							<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/sg.png" alt="Selling Genius Logo">
-							<?php bloginfo('name'); ?>
+							<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/sg-dark.png" alt="Selling Genius Logo">
+							<h1 id="website-name"><?php bloginfo('name'); ?></h1>
 						</a>
-						<img id="menu-open" src="<?php echo get_template_directory_uri(); ?>/library/images/open-light.png" alt="Hamburger icon">
-						<img id="menu-close" src="<?php echo get_template_directory_uri(); ?>/library/images/close-light.png" alt="Hamburger icon">
+						<img id="menu-open" src="<?php echo get_template_directory_uri(); ?>/library/images/open-dark.png" alt="Hamburger icon">
 					</div>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 
-
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					<img id="menu-close" src="<?php echo get_template_directory_uri(); ?>/library/images/close-dark.png" alt="Hamburger icon">
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -78,6 +81,8 @@
 						)); ?>
 
 					</nav>
+
+					<img id="header-img" src="<?php echo get_template_directory_uri(); ?>/library/images/desk.jpg" alt="Header image">
 
 				</div>
 
