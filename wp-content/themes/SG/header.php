@@ -54,11 +54,12 @@
 
 					<?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
 					<div id="logo-nav-section" class="h1" itemscope itemtype="http://schema.org/Organization">
+						<img id="menu-open" src="<?php echo get_template_directory_uri(); ?>/library/images/open-dark.png" alt="Hamburger icon">
 						<a href="<?php echo home_url(); ?>" rel="nofollow">
 							<img class="logo-img" src="<?php echo get_template_directory_uri(); ?>/library/images/sg-dark.png" alt="Selling Genius Logo">
 							<h1 id="website-name"><?php bloginfo('name'); ?></h1>
 						</a>
-						<img id="menu-open" src="<?php echo get_template_directory_uri(); ?>/library/images/open-dark.png" alt="Hamburger icon">
+						<a href="http://selling-genius/basket/"><img id="cart-icon" src="<?php echo get_template_directory_uri(); ?>/library/images/cart.png" alt="Cart icon"></a>
 					</div>
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>

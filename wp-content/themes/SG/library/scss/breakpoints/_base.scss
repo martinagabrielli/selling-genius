@@ -35,34 +35,36 @@ GENERAL STYLES
 				height: 70px;
 				#inner-header {
 					#logo-nav-section {
-						width: 350px;
-						height: 50px;
+						width: 340px;
+						margin: 15px auto;
 						display: flex;
 						align-items: center;
 						justify-content: space-between;
-						margin-left: 10px;
 						a {
 							display: flex;
 							align-items: center;
-							// justify-content: flex-start;
 							#website-name {
 								font-size: 1.3em;
 								color: #000;
 								margin: 0;
 							}
 						}
+						a {
+							#cart-icon {
+								width: 20px;
+								height: 20px;
+							}
+						}
 						#menu-open {
 							cursor: pointer;
-							width: 30px;
-							height: 30px;
-							position: absolute;
-							right: 20px;
+							width: 20px;
+							height: 20px;
 							&.hide {
 								display: none;
 							}
 						}
 						.logo-img {
-							width: 45px;
+							width: 35px;
 						}
 					}
 					nav {
@@ -76,11 +78,11 @@ GENERAL STYLES
 						z-index: 9;
 						#menu-close {
 							cursor: pointer;
-							width: 30px;
-							height: 30px;
+							width: 20px;
+							height: 12px;
 							position: absolute;
-							right: 20px;
-							top: 20px;
+							left: 18px;
+							top: 28px;
 							display: none;
 							&.show {
 								display: inherit;
