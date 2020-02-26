@@ -84,6 +84,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/cart.png": {
+		"ft": 32768,
+		"iS": 4961,
+		"oA": 0,
+		"oAP": "/images/cart.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/close-dark.png": {
 		"ft": 32768,
 		"iS": 1595,
