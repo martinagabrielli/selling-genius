@@ -1229,71 +1229,75 @@ GENERAL STYLES
     display: none;
     background: #fff;
     height: 100vh; }
-  * body #container header {
-    height: 70px; }
-    * body #container header #inner-header #logo-nav-section {
-      margin: 15px 18px;
+  * body #container header #inner-header #logo-nav-section {
+    margin: 30px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    * body #container header #inner-header #logo-nav-section a {
       display: flex;
-      align-items: center;
-      justify-content: space-between; }
-      * body #container header #inner-header #logo-nav-section a {
-        display: flex;
-        align-items: center; }
-        * body #container header #inner-header #logo-nav-section a #website-name {
-          font-size: 1.3em;
-          color: #000;
-          margin: 0; }
-      * body #container header #inner-header #logo-nav-section a #cart-icon {
-        width: 20px;
-        height: 20px; }
-      * body #container header #inner-header #logo-nav-section #menu-open {
-        cursor: pointer;
-        width: 20px;
-        height: 20px; }
-        * body #container header #inner-header #logo-nav-section #menu-open.hide {
-          display: none; }
-      * body #container header #inner-header #logo-nav-section .logo-img {
-        width: 35px; }
-    * body #container header #inner-header nav {
-      display: none;
-      background: #fff;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      text-align: center;
-      z-index: 9; }
-      * body #container header #inner-header nav #menu-close {
-        cursor: pointer;
-        width: 20px;
-        height: 12px;
-        position: absolute;
-        left: 18px;
-        top: 28px;
+      align-items: center; }
+      * body #container header #inner-header #logo-nav-section a #website-name {
+        font-size: 1.3em;
+        color: #000;
+        margin: 0; }
+    * body #container header #inner-header #logo-nav-section a #cart-icon {
+      width: 20px;
+      height: 20px; }
+    * body #container header #inner-header #logo-nav-section #menu-open {
+      cursor: pointer;
+      width: 20px;
+      height: 20px; }
+      * body #container header #inner-header #logo-nav-section #menu-open.hide {
         display: none; }
-        * body #container header #inner-header nav #menu-close.show {
-          display: inherit; }
-      * body #container header #inner-header nav ul {
-        position: relative;
-        top: 25%; }
-        * body #container header #inner-header nav ul li a {
-          cursor: pointer;
-          color: #000; }
-          * body #container header #inner-header nav ul li a:hover {
-            color: #f01d4f; }
-      * body #container header #inner-header nav.show {
+    * body #container header #inner-header #logo-nav-section .logo-img {
+      width: 35px; }
+  * body #container header #inner-header nav {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    z-index: 99; }
+    * body #container header #inner-header nav #menu-close {
+      cursor: pointer;
+      width: 20px;
+      height: 12px;
+      position: absolute;
+      left: 18px;
+      top: 42px;
+      display: none; }
+      * body #container header #inner-header nav #menu-close.show {
         display: inherit; }
-    * body #container header #inner-header #header-img {
-      width: 100%; }
+    * body #container header #inner-header nav ul {
+      position: relative;
+      top: 25%; }
+      * body #container header #inner-header nav ul li a {
+        cursor: pointer;
+        color: #000; }
+        * body #container header #inner-header nav ul li a:hover {
+          color: #f01d4f; }
+    * body #container header #inner-header nav.show {
+      display: inherit; }
+  * body #container header #inner-header #header-img {
+    width: 100%; }
   * body #container footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
     z-index: -1; }
   * body.page-id-8 #container header #inner-header #header-img {
     display: none; }
+  * body.page-id-9 #container header #inner-header #header-img {
+    display: none; }
+  * body.page-id-10 #container header #inner-header #header-img {
+    display: none; }
   * body.page-id-11 #container header #inner-header #header-img {
     display: none; }
+  * body.page-id-242 #container #content #inner-content main div p {
+    display: block; }
+  * body.page-id-242 #container #content #inner-content main div img {
+    width: 100%; }
 
 /********************
 WORDPRESS BODY CLASSES

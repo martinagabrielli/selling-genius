@@ -32,10 +32,9 @@ GENERAL STYLES
 		}
 		#container {
 			header {
-				height: 70px;
 				#inner-header {
 					#logo-nav-section {
-						margin: 15px 18px;
+						margin: 30px 18px;
 						display: flex;
 						align-items: center;
 						justify-content: space-between;
@@ -74,14 +73,14 @@ GENERAL STYLES
 						width: 100%;
 						height: 100vh;
 						text-align: center;
-						z-index: 9;
+						z-index: 99;
 						#menu-close {
 							cursor: pointer;
 							width: 20px;
 							height: 12px;
 							position: absolute;
 							left: 18px;
-							top: 28px;
+							top: 42px;
 							display: none;
 							&.show {
 								display: inherit;
@@ -114,8 +113,6 @@ GENERAL STYLES
 			}
 			footer {
 				width: 100%;
-				position: absolute;
-				bottom: 0;
 				z-index: -1;
 			}
 		}
@@ -151,6 +148,29 @@ GENERAL STYLES
 				}
 			}
 		}
+		// basket
+		&.page-id-9 {
+			#container {
+				header {
+					#inner-header {
+						#header-img {
+							display: none;
+						}
+					}
+				}
+			}
+		}
+		&.page-id-10 {
+			#container {
+				header {
+					#inner-header {
+						#header-img {
+							display: none;
+						}
+					}
+				}
+			}			
+		}
 		// my account
 		&.page-id-11 {
 			#container {
@@ -168,6 +188,25 @@ GENERAL STYLES
 					#inner-content {
 						main {
 
+						}
+					}
+				}
+			}
+		}
+		&.page-id-242 {
+			#container {
+				#content {
+					
+					#inner-content {
+						main {
+							div {
+								p {
+									display: block;
+								}
+								img {
+									width: 100%;
+								}
+							}
 						}
 					}
 				}
