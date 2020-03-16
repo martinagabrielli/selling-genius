@@ -220,6 +220,37 @@ GENERAL STYLES
 									margin: 0 0 0 20px;
 								}
 							}
+							.shop-article {
+								position: relative;
+								h2 {
+									color: #ffffff;
+									font-weight: bold;
+									padding: 10px;
+								}
+								.shop-wrap {
+									display: flex;
+									justify-content: center;
+									margin-top: 260px;
+									.shop-link {
+										background: #ffffff;
+										display: block;
+										text-align: center;
+										text-transform: uppercase;
+										font-size: 14px;
+										color: #000000;
+										text-decoration: none;
+										width: 200px;
+										height: 40px;
+										line-height: 40px;
+									}
+								}
+								.background-img {
+									position: absolute;
+									top: 0;
+									width: 100%;
+									z-index: -1;
+								}
+							}
 						}
 					}
 				}
@@ -1080,6 +1111,8 @@ FOOTER STYLES
 	clear: both;
 	color: #000;
 	text-align: center;
+	position: absolute;
+	bottom: 0;
 }
 
 	/*

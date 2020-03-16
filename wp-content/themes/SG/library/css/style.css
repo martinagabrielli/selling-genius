@@ -1309,6 +1309,32 @@ GENERAL STYLES
     * body.page-id-59 #container #content #inner-content main .delivery p {
       font-weight: bold;
       margin: 0 0 0 20px; }
+  * body.page-id-59 #container #content #inner-content main .shop-article {
+    position: relative; }
+    * body.page-id-59 #container #content #inner-content main .shop-article h2 {
+      color: #ffffff;
+      font-weight: bold;
+      padding: 10px; }
+    * body.page-id-59 #container #content #inner-content main .shop-article .shop-wrap {
+      display: flex;
+      justify-content: center;
+      margin-top: 260px; }
+      * body.page-id-59 #container #content #inner-content main .shop-article .shop-wrap .shop-link {
+        background: #ffffff;
+        display: block;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #000000;
+        text-decoration: none;
+        width: 200px;
+        height: 40px;
+        line-height: 40px; }
+    * body.page-id-59 #container #content #inner-content main .shop-article .background-img {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1; }
   * body.page-template-custompage-1 #container #content #inner-content main div p {
     display: block; }
   * body.page-template-custompage-1 #container #content #inner-content main div img {
@@ -1788,7 +1814,9 @@ FOOTER STYLES
 .footer {
   clear: both;
   color: #000;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  bottom: 0; }
 
 /*
 	if you checked out the link above:
