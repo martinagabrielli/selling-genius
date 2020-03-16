@@ -58,6 +58,9 @@ function bones_ahoy() {
   // cleaning up excerpt
   add_filter( 'excerpt_more', 'bones_excerpt_more' );
 
+  // to display custom field screen option uncomment the following line of code
+  // add_filter('acf/settings/remove_wp_meta_box', '__return_false');
+
 } /* end bones ahoy */
 
 // let's get this party started
