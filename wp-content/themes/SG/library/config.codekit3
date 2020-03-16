@@ -117,6 +117,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/delivery.png": {
+		"ft": 32768,
+		"iS": 4046,
+		"oA": 0,
+		"oAP": "/images/delivery.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/desk.jpg": {
 		"ft": 16384,
 		"iS": 1224119,
