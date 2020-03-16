@@ -116,6 +116,7 @@ GENERAL STYLES
 				z-index: -1;
 			}
 		}
+		// home page
 		&.home {
 			#container {
 				header {
@@ -188,6 +189,37 @@ GENERAL STYLES
 					#inner-content {
 						main {
 
+						}
+					}
+				}
+			}
+		}
+		&.page-id-59 {
+			#container {
+				header {
+
+				}
+				#content {
+					#inner-content {
+						main {
+							.delivery {
+								width: 90%;
+								height: 50px;
+								line-height: 50px;
+								margin: auto;
+								background: #F6F6F6;
+								text-align: center;
+								display: flex;
+								justify-content: center;
+								align-items: center;
+								.delivery-img {
+									width: 35px;
+								}
+								p {
+									font-weight: bold;
+									margin: 0 0 0 20px;
+								}
+							}
 						}
 					}
 				}
