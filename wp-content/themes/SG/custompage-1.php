@@ -1,3 +1,5 @@
+<?php /* Template Name: Custom Page 1 */ ?>
+
 <?php get_header(); ?>
 
 			<div id="content">
