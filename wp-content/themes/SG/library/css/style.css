@@ -827,7 +827,7 @@ If you want to use these alerts in your design, you can. If not,
 you can just remove this stylesheet.
 
 ******************************************************************/
-.alert-help, .alert-info, .alert-error, .alert-success {
+.alert-success, .alert-error, .alert-info, .alert-help {
   margin: 10px;
   padding: 5px 18px;
   border: 1px solid; }
@@ -872,7 +872,7 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, .comment-reply-link, #submit {
+.blue-btn, #submit, .comment-reply-link {
   display: inline-block;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -888,11 +888,11 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   cursor: pointer;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .blue-btn:hover, #submit:hover, .comment-reply-link:hover, .blue-btn:focus, #submit:focus, .comment-reply-link:focus {
     color: #fff;
     text-decoration: none;
     outline: none; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
+  .blue-btn:active, #submit:active, .comment-reply-link:active {
     top: 1px; }
 
 /*
@@ -900,11 +900,11 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.blue-btn, .comment-reply-link, #submit {
+.blue-btn, #submit, .comment-reply-link {
   background-color: #2980b9; }
-  .blue-btn:hover, .comment-reply-link:hover, #submit:hover, .blue-btn:focus, .comment-reply-link:focus, #submit:focus {
+  .blue-btn:hover, #submit:hover, .comment-reply-link:hover, .blue-btn:focus, #submit:focus, .comment-reply-link:focus {
     background-color: #2574a8; }
-  .blue-btn:active, .comment-reply-link:active, #submit:active {
+  .blue-btn:active, #submit:active, .comment-reply-link:active {
     background-color: #2472a4; }
 
 /******************************************************************
@@ -1310,7 +1310,9 @@ GENERAL STYLES
       font-weight: bold;
       margin: 0 0 0 20px; }
   * body.page-id-59 #container #content #inner-content main .shop-article {
-    position: relative; }
+    position: relative;
+    width: 90%;
+    margin: auto; }
     * body.page-id-59 #container #content #inner-content main .shop-article h2 {
       color: #ffffff;
       font-weight: bold;
@@ -1318,7 +1320,8 @@ GENERAL STYLES
     * body.page-id-59 #container #content #inner-content main .shop-article .shop-wrap {
       display: flex;
       justify-content: center;
-      margin-top: 260px; }
+      position: relative;
+      top: 290px; }
       * body.page-id-59 #container #content #inner-content main .shop-article .shop-wrap .shop-link {
         background: #ffffff;
         display: block;
@@ -1339,6 +1342,11 @@ GENERAL STYLES
     display: block; }
   * body.page-template-custompage-1 #container #content #inner-content main div img {
     width: 100%; }
+  * body.product-template-default #container #content #inner-content main article header {
+    margin-left: 25px; }
+  * body.product-template-default #container footer {
+    position: relative;
+    bottom: 0; }
 
 /********************
 WORDPRESS BODY CLASSES

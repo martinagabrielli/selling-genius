@@ -222,6 +222,8 @@ GENERAL STYLES
 							}
 							.shop-article {
 								position: relative;
+								width: 90%;
+								margin: auto;
 								h2 {
 									color: #ffffff;
 									font-weight: bold;
@@ -230,7 +232,8 @@ GENERAL STYLES
 								.shop-wrap {
 									display: flex;
 									justify-content: center;
-									margin-top: 260px;
+									position: relative;
+									top: 290px;
 									.shop-link {
 										background: #ffffff;
 										display: block;
@@ -272,6 +275,25 @@ GENERAL STYLES
 							}
 						}
 					}
+				}
+			}
+		}
+		&.product-template-default {
+			#container {
+				#content {
+					#inner-content {
+						main {
+							article {
+								header {
+									margin-left: 25px;
+								}
+							}
+						}
+					}
+				}
+				footer {
+					position: relative;
+					bottom: 0;
 				}
 			}
 		}
