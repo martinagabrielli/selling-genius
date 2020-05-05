@@ -1,0 +1,46 @@
+2020-04-24T14:31:43+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 51
+
+2020-04-24T14:32:15+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 50
+
+2020-04-24T14:33:07+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 50
+
+2020-04-24T14:33:52+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 50
+
+2020-04-24T14:34:28+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 50
+
+2020-04-24T14:35:07+00:00 CRITICAL syntax error, unexpected end of file in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 75
+
+2020-04-24T14:35:23+00:00 CRITICAL syntax error, unexpected end of file in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 75
+
+2020-04-24T14:41:36+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 29
+
+2020-04-24T14:42:20+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 29
+
+2020-04-24T14:43:34+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 43
+
+2020-04-24T15:18:41+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php:34
+Stack trace:
+#0 /Users/martuce/Documents/Websites/selling-genius/wp-includes/template-loader.php(98): include()
+#1 /Users/martuce/Documents/Websites/selling-genius/wp-blog-header.php(19): require_once('/Users/martuce/...')
+#2 /Users/martuce/Documents/Websites/selling-genius/index.php(17): require('/Users/martuce/...')
+#3 {main}
+  thrown in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 34
+
+2020-04-24T15:26:10+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php:27
+Stack trace:
+#0 /Users/martuce/Documents/Websites/selling-genius/wp-includes/template-loader.php(98): include()
+#1 /Users/martuce/Documents/Websites/selling-genius/wp-blog-header.php(19): require_once('/Users/martuce/...')
+#2 /Users/martuce/Documents/Websites/selling-genius/index.php(17): require('/Users/martuce/...')
+#3 {main}
+  thrown in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 27
+
+2020-04-24T15:26:27+00:00 CRITICAL Uncaught Error: Call to undefined function get_the_field() in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php:27
+Stack trace:
+#0 /Users/martuce/Documents/Websites/selling-genius/wp-includes/template-loader.php(98): include()
+#1 /Users/martuce/Documents/Websites/selling-genius/wp-blog-header.php(19): require_once('/Users/martuce/...')
+#2 /Users/martuce/Documents/Websites/selling-genius/index.php(17): require('/Users/martuce/...')
+#3 {main}
+  thrown in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 27
+
+2020-04-24T16:12:23+00:00 CRITICAL syntax error, unexpected '<' in /Users/martuce/Documents/Websites/selling-genius/wp-content/themes/SG/page-59.php on line 39
+
