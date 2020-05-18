@@ -249,6 +249,74 @@ come into play. Have fun!
 /*********************
 GENERAL STYLES
 *********************/
+* body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+  * body.no-scroll {
+    overflow-y: hidden; }
+  * body #menu-curtain {
+    display: none;
+    background: #fff;
+    height: 100vh; }
+  * body #container header #inner-header #logo-nav-section {
+    margin: 30px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    * body #container header #inner-header #logo-nav-section a {
+      display: flex;
+      align-items: center; }
+      * body #container header #inner-header #logo-nav-section a #website-name {
+        font-size: 1.3em;
+        color: #000;
+        margin: 0; }
+    * body #container header #inner-header #logo-nav-section a #cart-icon {
+      width: 20px;
+      height: 20px; }
+    * body #container header #inner-header #logo-nav-section #menu-open {
+      cursor: pointer;
+      width: 20px;
+      height: 20px; }
+      * body #container header #inner-header #logo-nav-section #menu-open.hide {
+        display: none; }
+    * body #container header #inner-header #logo-nav-section .logo-img {
+      width: 35px; }
+  * body #container header #inner-header nav {
+    display: none;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    z-index: 99; }
+    * body #container header #inner-header nav #menu-close {
+      cursor: pointer;
+      width: 20px;
+      height: 12px;
+      position: absolute;
+      left: 18px;
+      top: 42px;
+      display: none; }
+      * body #container header #inner-header nav #menu-close.show {
+        display: inherit; }
+    * body #container header #inner-header nav ul {
+      position: relative;
+      top: 25%; }
+      * body #container header #inner-header nav ul li a {
+        cursor: pointer;
+        color: #000; }
+        * body #container header #inner-header nav ul li a:hover {
+          color: #f01d4f; }
+    * body #container header #inner-header nav.show {
+      display: inherit; }
+  * body #container header #inner-header #header-img {
+    width: 100%; }
+
+/********************/
 /*********************
 LAYOUT & GRID STYLES
 *********************/

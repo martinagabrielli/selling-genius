@@ -612,204 +612,6 @@ BOX SIZING
 /* @include box-sizing(border-box); */
 /* NOTE: value of "padding-box" is only supported in Gecko. So
 probably best not to use it. I mean, were you going to anyway? */
-/******************************************************************
-Site Name:
-Author:
-
-Stylesheet: Grid Stylesheet
-
-I've seperated the grid so you can swap it out easily. It's
-called at the top the style.scss stylesheet.
-
-There are a ton of grid solutions out there. You should definitely
-experiment with your own. Here are some recommendations:
-
-http://gridsetapp.com - Love this site. Responsive Grids made easy.
-http://susy.oddbird.net/ - Grids using Compass. Very elegant.
-http://gridpak.com/ - Create your own responsive grid.
-https://github.com/dope/lemonade - Neat lightweight grid.
-
-
-The grid below is a custom built thingy I modeled a bit after
-Gridset. It's VERY basic and probably shouldn't be used on
-your client projects. The idea is you learn how to roll your
-own grids. It's better in the long run and allows you full control
-over your project's layout.
-
-******************************************************************/
-.last-col {
-  float: right;
-  padding-right: 0 !important; }
-
-/*
-Mobile Grid Styles
-These are the widths for the mobile grid.
-There are four types, but you can add or customize
-them however you see fit.
-*/
-@media (max-width: 767px) {
-  .m-all {
-    float: left;
-    padding-right: 0.75em;
-    width: 100%;
-    padding-right: 0; }
-  .m-1of2 {
-    float: left;
-    padding-right: 0.75em;
-    width: 50%; }
-  .m-1of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
-  .m-2of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
-  .m-1of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 25%; }
-  .m-3of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 75%; } }
-
-/* Portrait tablet to landscape */
-@media (min-width: 768px) and (max-width: 1029px) {
-  .t-all {
-    float: left;
-    padding-right: 0.75em;
-    width: 100%;
-    padding-right: 0; }
-  .t-1of2 {
-    float: left;
-    padding-right: 0.75em;
-    width: 50%; }
-  .t-1of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
-  .t-2of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
-  .t-1of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 25%; }
-  .t-3of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 75%; }
-  .t-1of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 20%; }
-  .t-2of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 40%; }
-  .t-3of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 60%; }
-  .t-4of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 80%; } }
-
-/* Landscape to small desktop */
-@media (min-width: 1030px) {
-  .d-all {
-    float: left;
-    padding-right: 0.75em;
-    width: 100%;
-    padding-right: 0; }
-  .d-1of2 {
-    float: left;
-    padding-right: 0.75em;
-    width: 50%; }
-  .d-1of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 33.33%; }
-  .d-2of3 {
-    float: left;
-    padding-right: 0.75em;
-    width: 66.66%; }
-  .d-1of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 25%; }
-  .d-3of4 {
-    float: left;
-    padding-right: 0.75em;
-    width: 75%; }
-  .d-1of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 20%; }
-  .d-2of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 40%; }
-  .d-3of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 60%; }
-  .d-4of5 {
-    float: left;
-    padding-right: 0.75em;
-    width: 80%; }
-  .d-1of6 {
-    float: left;
-    padding-right: 0.75em;
-    width: 16.6666666667%; }
-  .d-1of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 14.2857142857%; }
-  .d-2of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 28.5714286%; }
-  .d-3of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 42.8571429%; }
-  .d-4of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 57.1428572%; }
-  .d-5of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 71.4285715%; }
-  .d-6of7 {
-    float: left;
-    padding-right: 0.75em;
-    width: 85.7142857%; }
-  .d-1of8 {
-    float: left;
-    padding-right: 0.75em;
-    width: 12.5%; }
-  .d-1of9 {
-    float: left;
-    padding-right: 0.75em;
-    width: 11.1111111111%; }
-  .d-1of10 {
-    float: left;
-    padding-right: 0.75em;
-    width: 10%; }
-  .d-1of11 {
-    float: left;
-    padding-right: 0.75em;
-    width: 9.09090909091%; }
-  .d-1of12 {
-    float: left;
-    padding-right: 0.75em;
-    width: 8.33%; } }
-
 /*********************
 IMPORTING MODULES
 Modules are reusable blocks or elements we use throughout the project.
@@ -1283,18 +1085,10 @@ GENERAL STYLES
       display: inherit; }
   * body #container header #inner-header #header-img {
     width: 100%; }
-  * body.page-id-8 #container header #inner-header #header-img {
-    display: none; }
-  * body.page-id-9 #container header #inner-header #header-img {
-    display: none; }
-  * body.page-id-10 #container header #inner-header #header-img {
-    display: none; }
-  * body.page-id-11 #container header #inner-header #header-img {
-    display: none; }
-  * body.page-id-59 #container #content #inner-content main #row-one {
-    max-width: 320px;
+  * body.home #container #content #inner-content main #row-one {
+    width: 90%;
     margin: auto; }
-    * body.page-id-59 #container #content #inner-content main #row-one .delivery {
+    * body.home #container #content #inner-content main #row-one .delivery {
       height: 50px;
       line-height: 50px;
       margin: auto;
@@ -1304,12 +1098,12 @@ GENERAL STYLES
       justify-content: center;
       align-items: center;
       box-shadow: 3px 2px 10px -8px #000000bf; }
-      * body.page-id-59 #container #content #inner-content main #row-one .delivery .delivery-img {
+      * body.home #container #content #inner-content main #row-one .delivery .delivery-img {
         width: 35px; }
-      * body.page-id-59 #container #content #inner-content main #row-one .delivery p {
+      * body.home #container #content #inner-content main #row-one .delivery p {
         font-weight: bold;
         margin: 0 0 0 20px; }
-    * body.page-id-59 #container #content #inner-content main #row-one .shop {
+    * body.home #container #content #inner-content main #row-one .shop {
       box-shadow: 3px 2px 10px -8px #000000bf;
       margin: 20px auto;
       height: 400px;
@@ -1318,18 +1112,18 @@ GENERAL STYLES
       background-position: center;
       display: flex;
       text-align: center; }
-      * body.page-id-59 #container #content #inner-content main #row-one .shop .shop-wrap {
+      * body.home #container #content #inner-content main #row-one .shop .shop-wrap {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
         margin: auto;
         height: 370px; }
-        * body.page-id-59 #container #content #inner-content main #row-one .shop .shop-wrap h2 {
+        * body.home #container #content #inner-content main #row-one .shop .shop-wrap h2 {
           color: #ffffff;
           font-weight: bold;
           margin: 0; }
-        * body.page-id-59 #container #content #inner-content main #row-one .shop .shop-wrap .shop-link {
+        * body.home #container #content #inner-content main #row-one .shop .shop-wrap .shop-link {
           background: #ffffff;
           text-transform: uppercase;
           font-size: 14px;
@@ -1338,6 +1132,14 @@ GENERAL STYLES
           width: 200px;
           height: 40px;
           line-height: 40px; }
+  * body.page-id-8 #container header #inner-header #header-img {
+    display: none; }
+  * body.page-id-9 #container header #inner-header #header-img {
+    display: none; }
+  * body.page-id-10 #container header #inner-header #header-img {
+    display: none; }
+  * body.page-id-11 #container header #inner-header #header-img {
+    display: none; }
   * body.page-template-custompage-1 #container #content #inner-content main div p {
     display: block; }
   * body.page-template-custompage-1 #container #content #inner-content main div img {
@@ -1933,6 +1735,73 @@ come into play. Have fun!
   /*********************
 GENERAL STYLES
 *********************/
+  * body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+    * body.no-scroll {
+      overflow-y: hidden; }
+    * body #menu-curtain {
+      display: none;
+      background: #fff;
+      height: 100vh; }
+    * body #container header #inner-header #logo-nav-section {
+      margin: 30px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      * body #container header #inner-header #logo-nav-section a {
+        display: flex;
+        align-items: center; }
+        * body #container header #inner-header #logo-nav-section a #website-name {
+          font-size: 1.3em;
+          color: #000;
+          margin: 0; }
+      * body #container header #inner-header #logo-nav-section a #cart-icon {
+        width: 20px;
+        height: 20px; }
+      * body #container header #inner-header #logo-nav-section #menu-open {
+        cursor: pointer;
+        width: 20px;
+        height: 20px; }
+        * body #container header #inner-header #logo-nav-section #menu-open.hide {
+          display: none; }
+      * body #container header #inner-header #logo-nav-section .logo-img {
+        width: 35px; }
+    * body #container header #inner-header nav {
+      display: none;
+      background: #fff;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      z-index: 99; }
+      * body #container header #inner-header nav #menu-close {
+        cursor: pointer;
+        width: 20px;
+        height: 12px;
+        position: absolute;
+        left: 18px;
+        top: 42px;
+        display: none; }
+        * body #container header #inner-header nav #menu-close.show {
+          display: inherit; }
+      * body #container header #inner-header nav ul {
+        position: relative;
+        top: 25%; }
+        * body #container header #inner-header nav ul li a {
+          cursor: pointer;
+          color: #000; }
+          * body #container header #inner-header nav ul li a:hover {
+            color: #f01d4f; }
+      * body #container header #inner-header nav.show {
+        display: inherit; }
+    * body #container header #inner-header #header-img {
+      width: 100%; }
+  /********************/
   /*********************
 LAYOUT & GRID STYLES
 *********************/
@@ -2050,7 +1919,7 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
-@media only screen and (min-width: 1030px) {
+@media only screen and (min-width: 1024px) {
   /******************************************************************
 Site Name:
 Author:
@@ -2060,7 +1929,19 @@ Stylesheet: Desktop Stylsheet
 This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
-******************************************************************/ }
+******************************************************************/
+  * body.home #container #content #inner-content main {
+    max-width: 1200px;
+    margin: auto; }
+    * body.home #container #content #inner-content main #row-one {
+      display: grid;
+      grid-template-columns: 1fr 1fr; }
+      * body.home #container #content #inner-content main #row-one .delivery {
+        grid-column: 1/3;
+        width: 50%;
+        margin-bottom: 22px; }
+      * body.home #container #content #inner-content main #row-one .shop {
+        margin: 10px; } }
 
 /*********************
 LARGE VIEWING SIZE
