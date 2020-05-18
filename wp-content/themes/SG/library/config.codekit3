@@ -240,7 +240,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/scss/breakpoints/_1030up.scss": {
+	"/scss/breakpoints/_1024up.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -248,7 +248,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/scss/css/_1030up.css",
+		"oAP": "/scss/css/_1024up.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -423,32 +423,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/scss/css/_functions.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/scss/partials/_grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/css/_grid.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/scss/partials/_ie_grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/scss/css/_ie_grid.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
