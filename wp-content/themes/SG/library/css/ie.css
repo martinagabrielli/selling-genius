@@ -151,20 +151,6 @@ probably best not to use it. I mean, were you going to anyway? */
 Site Name:
 Author:
 
-Stylesheet: IE Grid Styles
-
-Since the example grid is based on media queries, so rather than
-setup some js library that would make IE8 and below understand
-media queries, let's just add some styles that serves a fixed grid.
-
-Again, if you want to roll your own, just remove this junk and put
-whatever you use in here.
-
-******************************************************************/
-/******************************************************************
-Site Name:
-Author:
-
 Stylesheet: 481px and Up Stylesheet
 
 This stylesheet is loaded for larger devices. It's set to
@@ -282,39 +268,9 @@ GENERAL STYLES
       height: 20px; }
       * body #container header #inner-header #logo-nav-section #menu-open.hide {
         display: none; }
-    * body #container header #inner-header #logo-nav-section .logo-img {
-      width: 35px; }
-  * body #container header #inner-header nav {
-    display: none;
-    background: #fff;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100vh;
-    text-align: center;
-    z-index: 99; }
-    * body #container header #inner-header nav #menu-close {
-      cursor: pointer;
-      width: 20px;
-      height: 12px;
-      position: absolute;
-      left: 18px;
-      top: 42px;
-      display: none; }
-      * body #container header #inner-header nav #menu-close.show {
-        display: inherit; }
-    * body #container header #inner-header nav ul {
-      position: relative;
-      top: 25%; }
-      * body #container header #inner-header nav ul li a {
-        cursor: pointer;
-        color: #000; }
-        * body #container header #inner-header nav ul li a:hover {
-          color: #f01d4f; }
-    * body #container header #inner-header nav.show {
-      display: inherit; }
-  * body #container header #inner-header #header-img {
-    width: 100%; }
+  * body #container header #inner-header nav ul {
+    display: flex;
+    flex-direction: column; }
 
 /********************/
 /*********************
@@ -442,6 +398,19 @@ This is the desktop size. It's larger than an iPad so it will only
 be seen on the Desktop.
 
 ******************************************************************/
+* body.home #container #content #inner-content main {
+  max-width: 1200px;
+  margin: auto; }
+  * body.home #container #content #inner-content main #row-one {
+    display: grid;
+    grid-template-columns: 1fr 1fr; }
+    * body.home #container #content #inner-content main #row-one .delivery {
+      grid-column: 1/3;
+      width: 50%;
+      margin-bottom: 22px; }
+    * body.home #container #content #inner-content main #row-one .shop {
+      margin: 10px; }
+
 /*
 you can call the larger styles if you want, but there's really no need
 */

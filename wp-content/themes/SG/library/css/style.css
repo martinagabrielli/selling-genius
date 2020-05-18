@@ -1768,39 +1768,9 @@ GENERAL STYLES
         height: 20px; }
         * body #container header #inner-header #logo-nav-section #menu-open.hide {
           display: none; }
-      * body #container header #inner-header #logo-nav-section .logo-img {
-        width: 35px; }
-    * body #container header #inner-header nav {
-      display: none;
-      background: #fff;
-      position: absolute;
-      top: 0;
-      width: 100%;
-      height: 100vh;
-      text-align: center;
-      z-index: 99; }
-      * body #container header #inner-header nav #menu-close {
-        cursor: pointer;
-        width: 20px;
-        height: 12px;
-        position: absolute;
-        left: 18px;
-        top: 42px;
-        display: none; }
-        * body #container header #inner-header nav #menu-close.show {
-          display: inherit; }
-      * body #container header #inner-header nav ul {
-        position: relative;
-        top: 25%; }
-        * body #container header #inner-header nav ul li a {
-          cursor: pointer;
-          color: #000; }
-          * body #container header #inner-header nav ul li a:hover {
-            color: #f01d4f; }
-      * body #container header #inner-header nav.show {
-        display: inherit; }
-    * body #container header #inner-header #header-img {
-      width: 100%; }
+    * body #container header #inner-header nav ul {
+      display: flex;
+      flex-direction: column; }
   /********************/
   /*********************
 LAYOUT & GRID STYLES
