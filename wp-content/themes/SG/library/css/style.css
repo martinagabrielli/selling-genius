@@ -1283,9 +1283,6 @@ GENERAL STYLES
       display: inherit; }
   * body #container header #inner-header #header-img {
     width: 100%; }
-  * body #container footer {
-    width: 100%;
-    z-index: -1; }
   * body.page-id-8 #container header #inner-header #header-img {
     display: none; }
   * body.page-id-9 #container header #inner-header #header-img {
@@ -1347,9 +1344,6 @@ GENERAL STYLES
     width: 100%; }
   * body.product-template-default #container #content #inner-content main article header {
     margin-left: 25px; }
-  * body.product-template-default #container footer {
-    position: relative;
-    bottom: 0; }
 
 /********************
 WORDPRESS BODY CLASSES
@@ -1509,7 +1503,8 @@ POSTS & CONTENT STYLES
     padding: 1.5em; }
   .hentry footer {
     padding: 1.5em;
-    border-top: 1px solid #f8f9fa; }
+    border-top: 1px solid #f8f9fa;
+    position: absolute; }
     .hentry footer p {
       margin: 0; }
 
@@ -1825,9 +1820,7 @@ FOOTER STYLES
 .footer {
   clear: both;
   color: #000;
-  text-align: center;
-  position: absolute;
-  bottom: 0; }
+  text-align: center; }
 
 /*
 	if you checked out the link above:

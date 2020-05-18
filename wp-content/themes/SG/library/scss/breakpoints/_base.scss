@@ -112,8 +112,6 @@ GENERAL STYLES
 
 			}
 			footer {
-				width: 100%;
-				z-index: -1;
 			}
 		}
 		// home page
@@ -295,8 +293,6 @@ GENERAL STYLES
 					}
 				}
 				footer {
-					position: relative;
-					bottom: 0;
 				}
 			}
 		}
@@ -541,7 +537,7 @@ POSTS & CONTENT STYLES
 			footer {
 				padding: 1.5em;
 				border-top: 1px solid $light-gray;
-
+				position: absolute;
 				p {
 					margin: 0;
 				}
@@ -1136,8 +1132,6 @@ FOOTER STYLES
 	clear: both;
 	color: #000;
 	text-align: center;
-	position: absolute;
-	bottom: 0;
 }
 
 	/*
