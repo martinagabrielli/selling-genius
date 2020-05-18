@@ -202,56 +202,59 @@ GENERAL STYLES
 				#content {
 					#inner-content {
 						main {
-							.delivery {
-								width: 90%;
-								height: 50px;
-								line-height: 50px;
+							#row-one {
+								max-width: 320px;
 								margin: auto;
-								background: #F6F6F6;
-								text-align: center;
-								display: flex;
-								justify-content: center;
-								align-items: center;
-								.delivery-img {
-									width: 35px;
-								}
-								p {
-									font-weight: bold;
-									margin: 0 0 0 20px;
-								}
-							}
-							.shop-article {
-								position: relative;
-								width: 90%;
-								margin: auto;
-								h2 {
-									color: #ffffff;
-									font-weight: bold;
-									padding: 10px;
-								}
-								.shop-wrap {
+								.delivery {
+									height: 50px;
+									line-height: 50px;
+									margin: auto;
+									background: #F6F6F6;
+									text-align: center;
 									display: flex;
 									justify-content: center;
-									position: relative;
-									top: 290px;
-									.shop-link {
-										background: #ffffff;
-										display: block;
-										text-align: center;
-										text-transform: uppercase;
-										font-size: 14px;
-										color: #000000;
-										text-decoration: none;
-										width: 200px;
-										height: 40px;
-										line-height: 40px;
+									align-items: center;
+									box-shadow: 3px 2px 10px -8px #000000bf;
+									.delivery-img {
+										width: 35px;
+									}
+									p {
+										font-weight: bold;
+										margin: 0 0 0 20px;
 									}
 								}
-								.background-img {
-									position: absolute;
-									top: 0;
-									width: 100%;
-									z-index: -1;
+								.shop {
+									box-shadow: 3px 2px 10px -8px #000000bf;
+									margin: 20px auto;
+									height: 400px;
+									background-size: cover;
+									background-repeat: no-repeat;
+									background-position: center;
+									display: flex;
+									text-align: center;
+									.shop-wrap {
+										display: flex;
+										flex-direction: column;
+										align-items: center;
+										justify-content: space-between;
+										margin: auto;
+										height: 370px;
+										h2 {
+											color: #ffffff;
+											font-weight: bold;
+											margin: 0;
+										}
+										.shop-link {
+											background: #ffffff;
+											text-transform: uppercase;
+											font-size: 14px;
+											color: #000000;
+											text-decoration: none;
+											width: 200px;
+											height: 40px;
+											line-height: 40px;
+										}
+									}
 								}
 							}
 						}

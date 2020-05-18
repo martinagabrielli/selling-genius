@@ -4,32 +4,55 @@
 
 				<div id="inner-content" class="wrap cf">
 
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+                        <main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
-                            <div class="delivery">
-                                <img class="delivery-img" src="<?php echo get_template_directory_uri() . '/library/images/delivery.png' ?>">
+                            <div id="row-one">
 
-                                <?php if( get_field('delivery') ): ?>
-                                    <p><?php the_field('delivery'); ?></p>
-                                <?php endif; ?>
-                            </div>
+                                <div class="delivery">
+                                    <img class="delivery-img" src="<?php echo get_template_directory_uri() . '/library/images/delivery.png' ?>">
 
-                            <div class="shop-article">
-                                <h2><?php the_field('shop_title'); ?></h2>
-                                <div class="shop-wrap">
-                                    <?php 
-                                    $link = get_field('shop_link');
-                                    if( $link ): 
+                                    <?php if( get_field('delivery') ): ?>
+                                        <p><?php the_field('delivery'); ?></p>
+                                    <?php endif; ?>
+                                </div>  
+
+                                <!-- *** Shop *** -->
+                                <?php
+
+                                // check if the repeater field has rows of data
+                                if( have_rows('article') ):
+
+                                    // loop through the rows of data
+                                    while ( have_rows('article') ) : the_row();
+                                    $link = get_sub_field('article_link');
+                                    $image = get_sub_field('article_image');
+
+                                        // display a sub field value
                                         $link_url = $link['url'];
                                         $link_title = $link['title'];
                                         $link_target = $link['target'] ? $link['target'] : '_self';
-                                        ?>
-                                        <a class="shop-link" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
-                                    <?php endif; ?>
-                                </div>
-                                <img class="background-img" class="shop-img" src="<?php the_field('shop_image'); ?>">
-                            </div>
 
+                                    ?>
+                                    <div class="shop" style="background-image: url(<?php the_sub_field('article_image'); ?>);">
+                                        <div class="shop-wrap">
+                                            <h2><?php echo get_sub_field('article_title'); ?></h2>
+                                            <a class="shop-link" href="<?php echo esc_url( $link_url ); ?>" target="<?php echo esc_attr( $link_target ); ?>"><?php echo esc_html( $link_title ); ?></a>
+                                        </div>
+                                    </div>
+
+                                    <?php
+
+                                    endwhile;
+
+                                else :
+
+                                    // no rows found
+
+                                endif;
+
+                                ?>
+
+                            </div> 
 						</main>
 
 				</div>

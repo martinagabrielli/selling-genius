@@ -7,7 +7,7 @@
 		"uuidString": "F292C537-1CE2-487D-9EC4-917B31B3DF43"
 		}
 	],
-"creatorBuild": "32137",
+"creatorBuild": "32147",
 "files": {
 	"/admin.php": {
 		"cB": 0,
@@ -227,24 +227,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/scss/admin.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/admin-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/scss/admin.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/admin.css.map",
-		"oF": 0
-		},
 	"/scss/admin.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -344,24 +326,6 @@
 		"oAP": "/scss/config.rb",
 		"oF": 0
 		},
-	"/scss/editor-style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/editor-style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/scss/editor-style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/editor-style.css.map",
-		"oF": 0
-		},
 	"/scss/editor-style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -385,14 +349,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/scss/ie.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/ie.css.map",
-		"oF": 0
-		},
 	"/scss/ie.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -405,24 +361,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
-		},
-	"/scss/login.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/login-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/scss/login.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/login.css.map",
-		"oF": 0
 		},
 	"/scss/login.scss": {
 		"aP": 0,
@@ -579,24 +517,6 @@
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
-		},
-	"/scss/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/scss/style-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/scss/style.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/scss/style.css.map",
-		"oF": 0
 		},
 	"/scss/style.scss": {
 		"aP": 0,

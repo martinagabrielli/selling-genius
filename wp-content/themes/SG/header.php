@@ -82,8 +82,7 @@
 						)); ?>
 
 					</nav>
-
-					<img id="header-img" src="<?php echo get_template_directory_uri(); ?>/library/images/desk.jpg" alt="Header image">
+					<img id="header-img" src="<?php the_field('hero_image'); ?>" alt="Header image">
 
 				</div>
 
